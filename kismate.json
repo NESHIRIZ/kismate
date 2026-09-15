@@ -1,0 +1,508 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "amara@example.com",
+      "passwordHash": "scrypt$d29947b464363b63bcd1b4b1cc9dc9e3$39dfb599627da677a35e30f75b57f14bf34e05248f58c41baaaa1c3ee8f7648ab80e8a07fc19d3def07d42ad23fa069272eb9928849e2cc72aa5c44fb5042d1e",
+      "name": "Amara Ndlovu",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z",
+      "lastActiveAt": "2026-09-15T13:38:26.488Z",
+      "emailVerified": true,
+      "profileCompleted": true,
+      "onboardingCompleted": true,
+      "status": "active",
+      "dateOfBirth": "1994-04-15"
+    },
+    {
+      "id": 2,
+      "email": "leo@example.com",
+      "passwordHash": "scrypt$2c73c69b1b8dca58784cd92bee1972a7$ce448c9275584cdc98e877fb47d29d49bf334b07ea4c0371588abfcaa051cdcdd6c6e224adc981aa936ac2bae98b0325b2565cd79deb18b8e82f38bd5b938383",
+      "name": "Leo Martins",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z",
+      "lastActiveAt": "2026-09-15T13:38:26.488Z",
+      "emailVerified": true,
+      "profileCompleted": true,
+      "onboardingCompleted": true,
+      "status": "active",
+      "dateOfBirth": "1991-08-21"
+    },
+    {
+      "id": 3,
+      "email": "zuri@example.com",
+      "passwordHash": "scrypt$d2b6f2ecc542f57051c0a82a41c982b1$6c80ea7ac8c0fa14436f5bb1ff377d3e5162d84273a52bee9a4208a049973a48da88a6edf038651675cd38797e8657c46c652be0837ee3ada68da21840832a17",
+      "name": "Zuri Okafor",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z",
+      "lastActiveAt": "2026-09-15T13:38:26.488Z",
+      "emailVerified": true,
+      "profileCompleted": true,
+      "onboardingCompleted": true,
+      "status": "active",
+      "dateOfBirth": "1997-02-03"
+    },
+    {
+      "id": 4,
+      "email": "noah@example.com",
+      "passwordHash": "scrypt$23755e1349d4714404daabf8e89fcc88$a749769388d4e3580d64042ac06a24cf26ca8a92df8ddcaab4d2883dfffed0c4b86a8fda0455975a46851fd42473cea9d0628fa666ebb8732a4159cc34ac8cfb",
+      "name": "Noah Patel",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z",
+      "lastActiveAt": "2026-09-15T13:38:26.488Z",
+      "emailVerified": true,
+      "profileCompleted": true,
+      "onboardingCompleted": true,
+      "status": "active",
+      "dateOfBirth": "1992-09-18"
+    },
+    {
+      "id": 5,
+      "email": "ivy@example.com",
+      "passwordHash": "scrypt$a8c481b441ce43ff22254672da8ad535$f34ae85c59fc39c3a6342cd7d649f8e141b5412d8ab30fe01678587b71eb5696f379be07f384d4ba6d5e98e4520a46b17602c8349f9529f8e6257dd1a8c20125",
+      "name": "Ivy Thompson",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z",
+      "lastActiveAt": "2026-09-15T13:38:26.488Z",
+      "emailVerified": true,
+      "profileCompleted": true,
+      "onboardingCompleted": true,
+      "status": "active",
+      "dateOfBirth": "1990-11-07"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "firstName": "Amara",
+      "displayName": "Amara",
+      "dateOfBirth": "1994-04-15",
+      "gender": "woman",
+      "city": "Bulawayo",
+      "region": "Matabeleland",
+      "country": "Zimbabwe",
+      "bio": "I love meaningful conversations, slow weekends, and building a life with someone who values growth and genuine chemistry.",
+      "headline": "Intentional, warm, and curious.",
+      "relationshipIntent": "long-term-relationship",
+      "profilePhoto": "/images/profiles/amara.jpg",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "firstName": "Leo",
+      "displayName": "Leo",
+      "dateOfBirth": "1991-08-21",
+      "gender": "man",
+      "city": "Harare",
+      "region": "Mashonaland",
+      "country": "Zimbabwe",
+      "bio": "I enjoy live music, coffee walks, and building a relationship around trust, laughter, and shared goals.",
+      "headline": "Traveler with a grounded heart.",
+      "relationshipIntent": "serious-dating",
+      "profilePhoto": "/images/profiles/leo.jpg",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "firstName": "Zuri",
+      "displayName": "Zuri",
+      "dateOfBirth": "1997-02-03",
+      "gender": "woman",
+      "city": "Gweru",
+      "region": "Midlands",
+      "country": "Zimbabwe",
+      "bio": "I value deep conversations, exploring the city, and finding a partner who is emotionally available and fully present.",
+      "headline": "Creativity, kindness, and great energy.",
+      "relationshipIntent": "serious-dating",
+      "profilePhoto": "/images/profiles/zuri.jpg",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "firstName": "Noah",
+      "displayName": "Noah",
+      "dateOfBirth": "1992-09-18",
+      "gender": "man",
+      "city": "Mutare",
+      "region": "Manicaland",
+      "country": "Zimbabwe",
+      "bio": "I enjoy thoughtful planning, slow travel, and building a life with someone who shares both curiosity and calm.",
+      "headline": "Thoughtful, ambitious, and easy to be around.",
+      "relationshipIntent": "marriage",
+      "profilePhoto": "/images/profiles/noah.jpg",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "firstName": "Ivy",
+      "displayName": "Ivy",
+      "dateOfBirth": "1990-11-07",
+      "gender": "woman",
+      "city": "Victoria Falls",
+      "region": "Matabeleland North",
+      "country": "Zimbabwe",
+      "bio": "I like meaningful rituals, great food, and meeting people who are comfortable being honest and fully themselves.",
+      "headline": "Warm soul with a playful streak.",
+      "relationshipIntent": "long-term-relationship",
+      "profilePhoto": "/images/profiles/ivy.jpg",
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    }
+  ],
+  "profilePhotos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "url": "/images/profiles/amara.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "url": "/images/profiles/leo.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "url": "/images/profiles/zuri.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "url": "/images/profiles/noah.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "url": "/images/profiles/ivy.jpg",
+      "isPrimary": true,
+      "sortOrder": 0,
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    }
+  ],
+  "userInterests": [
+    {
+      "id": 1,
+      "userId": 1,
+      "interestId": "music",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "interestId": "travel",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "interestId": "food",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "interestId": "technology",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "interestId": "travel",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "interestId": "fitness",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "interestId": "art",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "interestId": "music",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "interestId": "photography",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 10,
+      "userId": 4,
+      "interestId": "reading",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 11,
+      "userId": 4,
+      "interestId": "travel",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 12,
+      "userId": 4,
+      "interestId": "food",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 13,
+      "userId": 5,
+      "interestId": "music",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 14,
+      "userId": 5,
+      "interestId": "nature",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 15,
+      "userId": 5,
+      "interestId": "volunteering",
+      "createdAt": "2026-09-15T13:38:26.488Z"
+    }
+  ],
+  "lifestyles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "education": "University",
+      "occupation": "Creative professional",
+      "smoking": "never",
+      "drinking": "socially",
+      "exercise": "often",
+      "children": "no",
+      "wantsChildren": "yes",
+      "pets": "cat",
+      "languages": [
+        "English",
+        "Shona"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "education": "University",
+      "occupation": "Creative professional",
+      "smoking": "never",
+      "drinking": "socially",
+      "exercise": "often",
+      "children": "no",
+      "wantsChildren": "yes",
+      "pets": "cat",
+      "languages": [
+        "English",
+        "Shona"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "education": "University",
+      "occupation": "Creative professional",
+      "smoking": "never",
+      "drinking": "socially",
+      "exercise": "often",
+      "children": "no",
+      "wantsChildren": "yes",
+      "pets": "cat",
+      "languages": [
+        "English",
+        "Shona"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "education": "University",
+      "occupation": "Creative professional",
+      "smoking": "never",
+      "drinking": "socially",
+      "exercise": "often",
+      "children": "no",
+      "wantsChildren": "yes",
+      "pets": "cat",
+      "languages": [
+        "English",
+        "Shona"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "education": "University",
+      "occupation": "Creative professional",
+      "smoking": "never",
+      "drinking": "socially",
+      "exercise": "often",
+      "children": "no",
+      "wantsChildren": "yes",
+      "pets": "cat",
+      "languages": [
+        "English",
+        "Shona"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    }
+  ],
+  "preferences": [
+    {
+      "id": 1,
+      "userId": 1,
+      "ageMin": 25,
+      "ageMax": 38,
+      "preferredGender": [
+        "man",
+        "woman"
+      ],
+      "preferredLocation": "Zimbabwe",
+      "maxDistanceKm": 300,
+      "relationshipIntent": [
+        "serious-dating",
+        "long-term-relationship"
+      ],
+      "interests": [
+        "travel",
+        "music",
+        "food"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "ageMin": 25,
+      "ageMax": 40,
+      "preferredGender": [
+        "woman"
+      ],
+      "preferredLocation": "Zimbabwe",
+      "maxDistanceKm": 250,
+      "relationshipIntent": [
+        "serious-dating",
+        "long-term-relationship"
+      ],
+      "interests": [
+        "music",
+        "travel",
+        "technology"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "ageMin": 27,
+      "ageMax": 38,
+      "preferredGender": [
+        "man"
+      ],
+      "preferredLocation": "Zimbabwe",
+      "maxDistanceKm": 200,
+      "relationshipIntent": [
+        "serious-dating",
+        "marriage"
+      ],
+      "interests": [
+        "art",
+        "music",
+        "travel"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "ageMin": 26,
+      "ageMax": 42,
+      "preferredGender": [
+        "woman"
+      ],
+      "preferredLocation": "Zimbabwe",
+      "maxDistanceKm": 300,
+      "relationshipIntent": [
+        "serious-dating",
+        "long-term-relationship",
+        "marriage"
+      ],
+      "interests": [
+        "travel",
+        "food",
+        "reading"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "ageMin": 24,
+      "ageMax": 40,
+      "preferredGender": [
+        "man"
+      ],
+      "preferredLocation": "Zimbabwe",
+      "maxDistanceKm": 250,
+      "relationshipIntent": [
+        "long-term-relationship",
+        "serious-dating"
+      ],
+      "interests": [
+        "music",
+        "nature",
+        "volunteering"
+      ],
+      "createdAt": "2026-09-15T13:38:26.488Z",
+      "updatedAt": "2026-09-15T13:38:26.488Z"
+    }
+  ],
+  "likes": [],
+  "passes": [],
+  "matches": [],
+  "blocks": [],
+  "organizer_cards": [],
+  "events": [],
+  "guests": []
+}

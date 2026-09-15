@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f2ee;
+  --foreground: #1b2430;
+  --card: #fffdfb;
+  --card-foreground: #1b2430;
+  --muted: #f2e6dd;
+  --muted-foreground: #5b6473;
+  --primary: #b46f5d;
+  --primary-foreground: #fffaf7;
+  --secondary: #1e2a38;
+  --secondary-foreground: #f8f5f3;
+  --accent: #e7d4c3;
+  --accent-foreground: #1b2430;
+  --success: #1d6658;
+  --warning: #ad6a2d;
+  --destructive: #b64646;
+  --border: rgba(30, 42, 56, 0.1);
+  --input: #f8f3ef;
+  --ring: rgba(180, 111, 93, 0.35);
+  --radius: 1.25rem;
+  --shadow-soft: 0 18px 42px rgba(15, 23, 42, 0.08);
+  --shadow-card: 0 14px 32px rgba(30, 42, 56, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #101922;
+    --foreground: #f0ece8;
+    --card: #171f2a;
+    --card-foreground: #f0ece8;
+    --muted: #1c2733;
+    --muted-foreground: #a7b1be;
+    --primary: #d39983;
+    --primary-foreground: #180f0d;
+    --secondary: #f3efe9;
+    --secondary-foreground: #101922;
+    --accent: #e6ceb9;
+    --accent-foreground: #101922;
+    --success: #7ec8b5;
+    --warning: #f0c38b;
+    --destructive: #ff9c9c;
+    --border: rgba(255, 255, 255, 0.08);
+    --input: #1b2430;
+    --ring: rgba(211, 153, 131, 0.32);
+    --shadow-soft: 0 18px 42px rgba(1, 3, 6, 0.35);
+    --shadow-card: 0 14px 32px rgba(1, 3, 6, 0.28);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(180, 111, 93, 0.08), transparent 30%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+      sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  a {
+    text-underline-offset: 4px;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  ::selection {
+    background: rgba(180, 111, 93, 0.22);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
